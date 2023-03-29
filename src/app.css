@@ -1,0 +1,44 @@
+.ExampleTable {
+    height: 300px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .ExampleTableHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #ccc;
+    font-weight: bold;
+  }
+  
+  .ExampleTableHeaderCell {
+    cursor: pointer;
+  }
+  
+  .ExampleTableHeaderCell:hover {
+    text-decoration: underline;
+  }
+  
+  .ExampleTableRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .ExampleTableRow:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .ExampleTableRow:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .ExampleTableColumn {
+    flex: 1;
+    text-align: left;
+  }
