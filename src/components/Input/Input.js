@@ -4,7 +4,7 @@ const Input = ({ ...props }) => {
   return (
     <input
       type="text"
-      class="form-control"
+      className="form-control"
       value={props.value}
       onChange={props.onChange}
       placeholder="Search..."
