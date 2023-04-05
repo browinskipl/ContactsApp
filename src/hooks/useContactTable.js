@@ -8,7 +8,7 @@ export const useContactTable = (data) => {
   const rows = useMemo(() =>
     data
       .filter((item) => {
-        const fullName = `${item.first_name} ${item.last_name}`.toLowerCase();
+        const fullName = `${item.first_name} ${item.last_name}`.toLowerCase(); //lastname to lowercase? 
         return fullName.includes(searchInput.toLowerCase());
       })
       .sort((a, b) => {

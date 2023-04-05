@@ -30,7 +30,7 @@ const TableWrapper = ({ data }) => {
             rowHeight={40}
             rowGetter={rowGetter}
             sortBy={sortBy}
-          ></Table>
+          />
         )}
       </AutoSizer>
     </div>
